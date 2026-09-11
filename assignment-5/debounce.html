@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce and Throttle Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Debounce & Throttle Demo</h1>
+
+        <section class="search-section">
+            <h2>Debounce - API Search</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search users..."
+            >
+
+            <p id="searchStatus"></p>
+            <ul id="searchResults"></ul>
+        </section>
+
+        <section class="scroll-section">
+            <h2>Throttle - Scroll Position</h2>
+            <p>
+                Scroll the page and open the browser console.
+            </p>
+        </section>
+
+        <div class="spacer"></div>
+
+        <p class="bottom">End of page</p>
+    </main>
+
+    <script src="debounce.js"></script>
+</body>
+</html>

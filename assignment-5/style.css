@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#searchResults {
+    padding-left: 20px;
+}
+
+.spacer {
+    height: 2000px;
+}
+
+.bottom {
+    text-align: center;
+    font-weight: bold;
+}
